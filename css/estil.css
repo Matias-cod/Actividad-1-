@@ -2,3 +2,80 @@
 {
     text-align: center;
 }
+
+.caja1
+{
+    margin: 0;
+    background-color: rgb(0, 247, 255);
+    height: 25%;
+    padding: 50px;
+    font-family:sans-serif;
+    font-size: 25px;
+    color:white;
+    width: 80%;
+}
+
+.caja2
+{
+    margin: 0;
+    background-color:rgb(229, 255, 0) ;
+    height: 25%;
+    padding: 50px;
+    font-family:sans-serif;
+    font-size: 25px;
+    color:white;
+    width: 80%;
+}
+
+.caja3
+{
+    margin: 0;
+    background-color: orange;
+    height: 25%;
+    padding: 50px;
+    font-family:sans-serif;
+    font-size: 25px;
+    color:white;
+    width: 80%;
+
+}
+
+.caja4
+{
+    margin: 0;
+    background-color: red;
+    height: 25%;
+    padding: 50px;
+    font-family:sans-serif;
+    font-size: 25px;
+    color:white;
+    width: 80%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.box
+{
+    float: left;
+    width: 20%;
+    height: 96vh;
+    background-color:gray;
+    /*Espacio entre las letras*/
+    padding: 6px ;
+}
+
+  li a {
+    display: block;
+    color: #000;
+    padding: 6px ;
+
+  }
+  /* Cambia el color del enlace al pasar el mouse */
+  li a:hover {
+    background-color: #555;
+  }
