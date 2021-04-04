@@ -1,51 +1,82 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>OMG AYUDA A UN PELUDO</title>
-        <link rel="stylesheet" href="css/estil.css"
-    </head>
-    <body>
-        <div class="box">
-            <ul>
-                <li><a href="Principal.html">Inicio</a></li>
-                <li><a href="">Nosotros</a></li>
-                <li><a href="perros.html">Perros</a></li>
-                <li><a href="Gatos.html">Gatos</a></li>
-                <li><a href="">Contacto</a></li>
-            </ul>
-        </div>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayuda a Peludos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-        <div class="caja1" style="text-align: center;" >
-            ONG- AYUDA A UN PELUDO
-        </div>
+    <h1 style="text-align: center; color:black">Ayuda  a un peludo</h1>
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+          width: 100%;
+          height: 550px;
+        }
+    </style>
+</head>
+<body style="background-color: indianred;">
 
-        <div class="caja2" style="text-align: center;">Dies ist eine NGO "Help a Furry", 
-            die sich der Adoption widmet, um das Problem des Tierschutzes und des verantwortungsvollen 
-            Besitzes von Haustieren zu lösen. Wir arbeiten jeden Tag und mit sehr begrenzten Ressourcen, 
-            damit verlassene Hunde eine bessere Lebensqualität haben. Zu den Aufgaben, die wir ausführen, 
-            gehören die ständige Fütterung vor Ort, die vollständige tierärztliche Betreuung und Adoptionskampagnen. 
-            All diese Aktivitäten zielen darauf ab, dass unsere vier kleinen Beine ihre endgültige Familie kennenlernen.
-         </div>
+    <nav class="navbar navbar-expand-sm bg-light">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="Principal.html" style="color: black;">Inicio</a>
+            </li>
+                
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: black;">Nosotros</a>
+            </li>
 
-        <div class="caja3" style="text-align: center;">
-            Dies ist eine NGO "Help a Furry", 
-            die sich der Adoption widmet, um das Problem des Tierschutzes und des verantwortungsvollen 
-            Besitzes von Haustieren zu lösen. Wir arbeiten jeden Tag und mit sehr begrenzten Ressourcen, 
-            damit verlassene Hunde eine bessere Lebensqualität haben. Zu den Aufgaben, die wir ausführen, 
-            gehören die ständige Fütterung vor Ort, die vollständige tierärztliche Betreuung und Adoptionskampagnen. 
-            All diese Aktivitäten zielen darauf ab, dass unsere vier kleinen Beine ihre endgültige Familie kennenlernen.
-        </div>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" style="color: black;">Adopta</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="perros.html" style="color: crimson;">Perros</a>
+                    <a class="dropdown-item" href="Gatos.html" style="color: crimson;">Gatos</a>
+                </div>
+            </li>
 
-        <div class="caja4" style="text-align: center;">
-            Dies ist eine NGO "Help a Furry", 
-            die sich der Adoption widmet, um das Problem des Tierschutzes und des verantwortungsvollen 
-            Besitzes von Haustieren zu lösen. Wir arbeiten jeden Tag und mit sehr begrenzten Ressourcen, 
-            damit verlassene Hunde eine bessere Lebensqualität haben. Zu den Aufgaben, die wir ausführen, 
-            gehören die ständige Fütterung vor Ort, die vollständige tierärztliche Betreuung und Adoptionskampagnen. 
-            All diese Aktivitäten zielen darauf ab, dass unsere vier kleinen Beine ihre endgültige Familie kennenlernen.
-        </div>
-        
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: black;">Contactanos</a>
+            </li>
+        </ul> 
+    </nav>
 
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <!-- Indicadores -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
 
-    </body>
+        </ul>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="perros.html"> <img src="imagen/perro1.jpg" alt="Perros" ></a>
+            </div>
+            <div class="carousel-item">
+                <a href="perros.html"> <img src="imagen/perro2.jpeg" alt="Perros" ></a>
+            </div>
+
+            <div class="carousel-item">
+                <a href="Gatos.html"> <img src="imagen/gato1.jpg" alt="Gatos" ></a>
+            </div>
+
+            <div class="carousel-item">
+                <a href="Gatos.html"> <img src="imagen/gato2.jpg" alt="Gatos" ></a>
+            </div>
+        <div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</body>
 </html>
